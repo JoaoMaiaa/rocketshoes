@@ -1,0 +1,22 @@
+{
+  "name": "rocketshoes",
+  "version": "1.0.0",
+  "description": "mini loja rocketshoes, projeto da rocketseat do discover",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoMaiaa/rocketshoes.git"
+  },
+  "author": "Joao Maia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoMaiaa/rocketshoes/issues"
+  },
+  "homepage": "https://github.com/JoaoMaiaa/rocketshoes#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

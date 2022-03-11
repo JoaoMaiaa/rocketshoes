@@ -1,0 +1,38 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    overflow-x:hidden;
+}
+
+:root {
+  --button: #FF0000;
+  --main-background:  #C4C4C4;
+  --background: #E5E5E5;
+  --text: #000;
+  --footer: #000;
+  --text-description: #9C9696;
+}
+
+.bg{
+    background-color:var(--background)!important;
+}
+
+.main-background{
+    background-color:var(--main-background)!important;
+    min-height:500px;
+}
+
+.title{
+    color:var(--text)!important;
+}
+
+.text-description{
+    color:var(--text-description)!important;
+}
+
+.footer{
+    color:var(--footer)!important;
+}
+
+img{
+    width:180px;
+}
