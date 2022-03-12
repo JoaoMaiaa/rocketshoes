@@ -16,20 +16,71 @@
 
 <body class="bg">
     <div class="row">
-        <div class="col-lg">
-
-        </div>
-        <div class="col-lg main-background">
-            <div>
-                <img src="assets/images/tenis-1-ampliado.png" alt="">
+        <nav class="navbar fixed-top navbar-expand-lg bg-dark">
+            <div class="container-fluid flex-fill d-flex justify-content-center">
+                <a class="navbar-brand ps-2" href="#">
+                    <img src="assets/images/logo.svg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav d-flex justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link f-weight-7 text-uppercase ps-5 ms-5 active" aria-current="page"
+                                href="#">Homem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link f-weight-7 text-uppercase ps-5 ms-5" href="#">Mulher</a>
+                        </li>
+                        <li class="nav-item  ps-5 ms-5">
+                            <a class="nav-link f-weight-7 text-uppercase" href="#">Criança</a>
+                        </li>
+                        <li class="nav-item  ps-5 ms-5">
+                            <a class="nav-link f-weight-7 text-uppercase" href="#">Customizar</a>
+                        </li>
+                        <form class="d-flex ps-3 ms-3">
+                            <input class="form-control ms-4 me-2" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <a href="#">
+                                <img src="assets/images/icon-bag.svg" class="ms-4 pe-4" alt="" srcset="">
+                            </a>
+                        </form>
+                    </ul>
+                </div>
             </div>
-            <div class="d-flex justify-content-between px-5">
-                <img src="assets/images/tenis-1-galeria.png" alt="" class="mx-2 img-fluid">
-                <img src="assets/images/tenis-2-galeria.png" alt="" class="mx-2 img-fluid">
-                <img src="assets/images/tenis-3-galeria.png" alt="" class="mx-2 img-fluid">
+        </nav>
+
+        <div class="col-lg-5">
+            <div class="container ">
+                <div class="px-5 pt-5 mt-3">
+                    <h1 class="f-weight-7 display-3 title">Tênis esportivo para corrida top</h1>
+                    <p class="text-description">Esse tênis tem o intuito de te deixar ainda mais fitness, focado e
+                        musculoso</p>
+                    <h3 class="f-weight-7 title">R$ 1.000,00</h3>
+                    <a href="#" class="mt-4 mb-2 btn btn-danger btn-lg text-uppercase">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-7 flex-fill bg-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg d-flex justify-content-center">
+                        <img src="assets/images/tenis-1-ampliado.png" alt="" class="mt-5 pt-2 bot-1 img-fluid">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg d-flex justify-content-center align-content-end">
+                        <img src="assets/images/tenis-1-galeria.png" alt="" class="m-2 img-fluid">
+                        <img src="assets/images/tenis-2-galeria.png" alt="" class="m-2 img-fluid">
+                        <img src="assets/images/tenis-3-galeria.png" alt="" class="m-2 img-fluid">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
