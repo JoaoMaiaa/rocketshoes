@@ -16,7 +16,42 @@
 
 <body class="bg">
     <div class="row">
-        <nav class="navbar fixed-top navbar-expand-lg bg-dark">
+        <nav class="d-block d-lg-none navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.svg" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav link-title">
+                    <li class="nav-item ">
+                        <a class="nav-link f-weight-7 text-uppercase active" aria-current="page"
+                            href="#">Homem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link f-weight-7 text-uppercase" href="#">Mulher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link f-weight-7 text-uppercase" href="#">Criança</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link f-weight-7 text-uppercase" href="#">Customizar</a>
+                    </li>
+                    <form class="d-flex ps-3 ms-3">
+                        <input class="form-control ms-4" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <a href="#">
+                            <img src="assets/images/icon-bag.svg" class="ms-4 pe-4" alt="" srcset="">
+                        </a>
+                    </form>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <nav class="d-none d-lg-block navbar fixed-top navbar-expand-lg bg-transparent">
             <div class="container-fluid flex-fill d-flex justify-content-center">
                 <a class="navbar-brand ps-2" href="#">
                     <img src="assets/images/logo.svg" alt="">
@@ -26,19 +61,19 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav d-flex justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link f-weight-7 text-uppercase ps-5 ms-5 active" aria-current="page"
+                    <ul class="navbar-nav link-dark d-flex justify-content-center">
+                        <li class="nav-item ">
+                            <a class="nav-link f-weight-7 link-dark text-uppercase ps-5 ms-5 active" aria-current="page"
                                 href="#">Homem</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link f-weight-7 text-uppercase ps-5 ms-5" href="#">Mulher</a>
+                            <a class="nav-link f-weight-7 link-dark text-uppercase ps-5 ms-5" href="#">Mulher</a>
                         </li>
                         <li class="nav-item  ps-5 ms-5">
-                            <a class="nav-link f-weight-7 text-uppercase" href="#">Criança</a>
+                            <a class="nav-link f-weight-7 link-dark text-uppercase" href="#">Criança</a>
                         </li>
                         <li class="nav-item  ps-5 ms-5">
-                            <a class="nav-link f-weight-7 text-uppercase" href="#">Customizar</a>
+                            <a class="nav-link f-weight-7 link-dark text-uppercase" href="#">Customizar</a>
                         </li>
                         <form class="d-flex ps-3 ms-3">
                             <input class="form-control ms-4 me-2" type="search" placeholder="Search"
@@ -52,7 +87,7 @@
             </div>
         </nav>
 
-        <div class="col-lg-5">
+        <div class="col-lg-5 my-4 my-lg-0">
             <div class="container ">
                 <div class="px-5 pt-5 mt-3">
                     <h1 class="f-weight-7 display-3 title">Tênis esportivo para corrida top</h1>
@@ -70,14 +105,50 @@
                         <img src="assets/images/tenis-1-ampliado.png" alt="" class="mt-5 pt-2 bot-1 img-fluid">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg d-flex justify-content-center align-content-end">
+                <div class="row ">
+                    <div class="col-lg d-flex justify-content-center">
                         <img src="assets/images/tenis-1-galeria.png" alt="" class="m-2 img-fluid">
                         <img src="assets/images/tenis-2-galeria.png" alt="" class="m-2 img-fluid">
                         <img src="assets/images/tenis-3-galeria.png" alt="" class="m-2 img-fluid">
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg">
+            <a href="#" class="d-flex justify-content-center">
+                <img src="assets/images/img-video.png" alt="" class="img-fluid">
+            </a>
+        </div>
+        <div
+            class="col-lg f-weight-7 py-4 text-uppercase d-flex align-items-center justify-content-center justify-content-center">
+            <a href="#" class="text-decoration-none title">
+                Facebook
+            </a>
+        </div>
+        <div class="col-lg f-weight-7 py-4 text-uppercase d-flex align-items-center justify-content-center">
+            <a href="#" class="text-decoration-none title">
+                Instagram
+            </a>
+        </div>
+        <div class="col-lg f-weight-7 py-4 text-uppercase d-flex align-items-center justify-content-center">
+            <a href="#" class="text-decoration-none title">
+                Instagram
+            </a>
+        </div>
+        <div class="col-lg f-weight-7 py-4 text-uppercase d-flex align-items-center justify-content-center">
+            <a href="#" class="text-decoration-none title">
+                youtube
+            </a>
+        </div>
+        <div class="col-lg-4 f-weight-7 py-4 text-uppercase bg-footer d-flex align-items-center justify-content-center">
+            <a href="#" class="text-decoration-none text-white">
+                Explore Mais
+                <img src="assets/images/icon-arrow.svg" alt="" class="mb-1 ms-2 img-fluid">
+            </a>
+
         </div>
     </div>
 

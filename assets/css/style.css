@@ -46,16 +46,20 @@ body {
   width: 400px !important;
 }
 
-.navbar, .nav-link {
+.link-dark {
   color: var(--text) !important;
 }
 
-.navbar {
-  background: transparent !important;
+.link-white {
+  color: #fff !important;
 }
 
 .bot-1 {
   width: 350px;
+}
+
+.bg-footer {
+  background-color: var(--footer) !important;
 }
 
 input {
